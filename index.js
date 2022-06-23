@@ -12,7 +12,7 @@ const flame_sensor = "node/flame"
 
 
 var mongo = require('mongodb').MongoClient;
-var url = "mongodb://192.168.72.49:27017/";
+var url = "mongodb://localhost:27017/";
 client.on('connect', function () {
     // client.subscribe('test', function(err ){
     //     if(!err){
